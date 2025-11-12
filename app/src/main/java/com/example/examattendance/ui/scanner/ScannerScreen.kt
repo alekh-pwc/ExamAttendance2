@@ -72,7 +72,7 @@ fun ScannerScreen(navController: NavController, examId: String,viewModel: Scanne
     Scaffold(
         topBar = {
             TopAppBar(
-windowInsets = WindowInsets(),
+windowInsets = WindowInsets(0.dp,0.dp,0.dp,0.dp),
                 title = {
                         Column(modifier = Modifier.defaultMinSize()) {
                             Text(

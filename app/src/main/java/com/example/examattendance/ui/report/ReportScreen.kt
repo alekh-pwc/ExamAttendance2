@@ -38,7 +38,7 @@ fun ReportScreen(
     Scaffold(
         topBar = {
             TopAppBar(
-                windowInsets = WindowInsets(),
+                windowInsets = WindowInsets(0.dp,0.dp,0.dp,0.dp),
                 title = {
                     Text(
                         text = "Attendance Report",
