@@ -12,6 +12,39 @@ An Android application for managing exam attendance using QR code scanning. Cand
 - **Report View**: Generate and view attendance reports per exam
 - **Permission Handling**: Camera permissions with runtime permission requests
 
+## 📸 Screenshots
+
+### Screen Overview
+
+<div align="center">
+
+**Splash Screen**  
+<img src="Screenshot_20251112_120908.png" width="220" alt="Splash Screen - Loading screen with app branding"/>
+
+**Dashboard Screen**  
+<img src="Screenshot_20251112_120944.png" width="220" alt="Dashboard - View all exams and attendance status"/>
+
+**Scanner Screen**  
+<img src="Screenshot_20251112_120958.png" width="220" alt="Scanner - Real-time QR code scanning"/>
+
+**Report Screen**  
+<img src="Screenshot_20251112_121009.png" width="220" alt="Report - Attendance report details"/>
+
+**Additional Screen**  
+<img src="Screenshot_20251112_121017.png" width="220" alt="Additional functionality screen"/>
+
+</div>
+
+### Screen Descriptions
+
+| Screen | Purpose |
+|--------|---------|
+| **Splash** | Initial app loading screen with branding |
+| **Dashboard** | Lists all exams with candidate attendance count |
+| **Scanner** | Real-time camera view for QR code detection |
+| **Report** | Displays detailed attendance report per exam |
+| **Additional** | Supplementary features and options |
+
 ## Architecture
 
 The app follows **MVVM (Model-View-ViewModel)** architecture with a **Repository pattern**:
