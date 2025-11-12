@@ -1,5 +1,5 @@
 
-<a href="https://github.com/alekh-pwc/ExamAttendance2/blob/main/app/release/app-release.apk">APK Download Link</a>
+<a href="https://github.com/alekh-pwc/ExamAttendance2/raw/refs/heads/main/app/release/app-release.apk">APK Download Link</a>
 # Exam Attendance App
 
 An Android application for managing exam attendance using QR code scanning. Candidates' presence is marked by scanning QR codes, with data synced from a backend API to a local Room database.
