@@ -37,9 +37,9 @@ fun SafeAreaScreen(content: @Composable () -> Unit) {
         modifier = Modifier
             .fillMaxSize()
 
-            .padding(bottom = WindowInsets.systemBars.asPaddingValues().calculateBottomPadding(),
-
-               top =  WindowInsets.systemBars.asPaddingValues().calculateTopPadding()
+            .padding(
+                bottom = WindowInsets.systemBars.asPaddingValues().calculateBottomPadding(),
+                top =  WindowInsets.systemBars.asPaddingValues().calculateTopPadding()
                 )
     ) {
         content()
